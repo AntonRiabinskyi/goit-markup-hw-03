@@ -249,8 +249,10 @@ margin-right: 50px;
 
 /* Team*/
 .team {
+  min-width: 1170px;
+  min-height: 368px;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
 }
 .team .item {
   width: 270px;
@@ -273,9 +275,11 @@ margin-right: 50px;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin: 0 auto;
 }
 /* Footer*/
 .page-footer {
+  padding: 60px 0;
   background: var(--background-fon-color);
 }
 .accent-logo-footer {
@@ -284,7 +288,8 @@ margin-right: 50px;
 /*Address Footer*/
 .address {
   font-style: normal;
-}
+  }
+  
 .address-nav .address-link {
   color: var(--second-color);
 
