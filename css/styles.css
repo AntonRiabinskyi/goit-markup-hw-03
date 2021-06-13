@@ -368,9 +368,6 @@ background-color: var(--second-color);
 
 }
 
-/*.work-item {
-  outline: 1px solid var(--portfolio-border-color-);
-}*/
 
 .work > .work-item {
   flex-basis: calc(100% / 3 - 30px);
